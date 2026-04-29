@@ -1,0 +1,16 @@
+[project]
+name = "connected-vehicle-app-growth-analytics"
+version = "0.1.0"
+description = "Synthetic connected vehicle owner app growth analytics project with SQL, Python, incrementality, attribution, propensity modeling, and operating diagnostics."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "TENaaa"}]
+dependencies = ["pandas>=2.0", "numpy>=1.24", "scipy>=1.10", "matplotlib>=3.7", "scikit-learn>=1.2"]
+
+[project.scripts]
+cv-growth = "cv_growth.__main__:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

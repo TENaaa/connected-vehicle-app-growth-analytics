@@ -1,0 +1,14 @@
+domain,metric,segment,numerator,denominator,rate,value
+call_center,reach_rate,CA02,287,447,0.6421,183.29
+call_center,reach_rate,CA04,31,40,0.775,198.85
+contact_policy,high_pressure_contact_share,all_users,0,2659,0.0,0.01
+data_quality,event_time_after_registration,pass,18502,18502,1.0,0.0
+data_quality,experiment_variant_balance,pass,3000,3000,1.0,0.0
+data_quality,high_pressure_contact_guardrail,pass,2659,2659,1.0,0.0
+data_quality,order_time_after_touchpoint,pass,463,463,1.0,0.0
+data_quality,orders_have_valid_touchpoint,pass,463,463,1.0,0.0
+data_quality,revenue_non_negative,pass,463,463,1.0,0.0
+data_quality,users_have_vehicle,pass,3000,3000,1.0,0.0
+dealer_lead,within_24h_sla_rate,benefit_redemption,58,90,0.6444,21.47
+dealer_lead,within_24h_sla_rate,diagnostic_followup,84,119,0.7059,19.34
+dealer_lead,within_24h_sla_rate,maintenance_due,255,376,0.6782,21.67

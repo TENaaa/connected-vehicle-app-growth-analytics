@@ -1,0 +1,9 @@
+stage,users,rate_of_registered,step_conversion_rate
+01_registered_users,3000,1.0,
+02_d7_login,1585,0.5283,0.5283
+03_d30_core_feature,1088,0.3627,0.6864
+04_campaign_reached,871,0.2903,0.8006
+05_purchase_intent,315,0.105,0.3617
+06_order_created,111,0.037,0.3524
+07_paid_order,107,0.0357,0.964
+08_paid_with_active_subscription,46,0.0153,0.4299

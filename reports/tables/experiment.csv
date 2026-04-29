@@ -1,0 +1,4 @@
+variant,assigned_users,reached_users,reach_rate,intent_14d_users,intent_14d_rate,paid_order_30d_users,paid_order_30d_rate,revenue_30d,revenue_per_assigned_user,auto_renew_users,auto_renew_rate,push_unsubscribed_users,push_unsubscribe_rate
+holdout,430,85,0.1977,13,0.0302,9,0.0209,4011.79,9.33,2,0.0047,5,0.0116
+control,1297,1091,0.8412,198,0.1527,164,0.1264,82486.1,63.6,40,0.0308,104,0.0802
+treatment,1273,1172,0.9207,400,0.3142,267,0.2097,112659.3,88.5,119,0.0935,24,0.0189

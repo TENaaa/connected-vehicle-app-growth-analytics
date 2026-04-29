@@ -1,0 +1,32 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Regenerable intermediate data
+data/synthetic/
+output/
+logs/
+
+# Private or bulky local artifacts
+*.key
+*.xlsx
+*.xls
+*.sqlite
+*.db
+*.parquet
+*.feather
+*.pkl
+
+!.gitkeep
+!reports/**/*.png
+!reports/**/*.md
